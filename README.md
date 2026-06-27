@@ -82,7 +82,7 @@ published evaluation artifacts*, and *measure your own trust* with the method �
 **Dmitriy Kolesnikov.**
 **Contact:** [kolesnikov.arch@gmail.com](mailto:kolesnikov.arch@gmail.com)  ·
 [LinkedIn](https://www.linkedin.com/in/dmitriy-kolesnikov-631b67169) ·
-[X @kolesnikov_arch](https://x.com/kolesnikov_arch)
+[X @kolesnikov_arc](https://x.com/kolesnikov_arc)
 
 ## License & Usage
 

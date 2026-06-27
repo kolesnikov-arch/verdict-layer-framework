@@ -61,7 +61,7 @@
 **Dmitriy Kolesnikov.**
 **联系方式:** [kolesnikov.arch@gmail.com](mailto:kolesnikov.arch@gmail.com)  ·
 [LinkedIn](https://www.linkedin.com/in/dmitriy-kolesnikov-631b67169) ·
-[X @kolesnikov_arch](https://x.com/kolesnikov_arch)
+[X @kolesnikov_arc](https://x.com/kolesnikov_arc)
 
 ## 许可与使用
 
