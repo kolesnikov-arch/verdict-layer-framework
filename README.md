@@ -82,7 +82,8 @@ published evaluation artifacts*, and *measure your own trust* with the method �
 **Dmitriy Kolesnikov.**
 **Contact:** [kolesnikov.arch@gmail.com](mailto:kolesnikov.arch@gmail.com)  ·
 [LinkedIn](https://www.linkedin.com/in/dmitriy-kolesnikov-631b67169) ·
-[X @kolesnikov_arc](https://x.com/kolesnikov_arc)
+[X @kolesnikov_arc](https://x.com/kolesnikov_arc) ·
+[Newsletter: Trust in AI Delivery](https://dmitriykolesnikov.substack.com)
 
 ## License & Usage
 
