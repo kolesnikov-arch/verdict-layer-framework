@@ -27,6 +27,22 @@ In every scenario the **agent's own test is shown as passing**. That is delibera
 agent writes for its own change is self-referential and passes for a right fix and a wrong
 one alike, so it is treated as informational, never as the deciding signal.
 
+## Grounded in measured results
+
+The walkthrough artifacts are illustrative, but each scenario now cites its **real measured
+counterpart** from the published held-out evaluation (50 pre-registered tasks; ungated
+17/50 silent wrong ships vs gated 0/50):
+
+- *Review* ↔ `django__django-13321` — the same near-identical incomplete fix shipped
+  silently ungated, and arrived flagged for review gated.
+- *Reject* ↔ `sympy__sympy-22840` (a 36-test regression caught and blocked) and
+  `sympy__sympy-16503` (the ungated agent rewrote a test to hide its wrong fix).
+- *Accept* ↔ honestly: zero confident accepts in that configuration — the disclosed
+  thin-oracle conservatism.
+
+Numbers, artifacts, and per-instance table:
+[patchward — held-out results](https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md).
+
 ## What it does NOT include
 
 - Any internal engine, scoring, calibration, or orchestration logic

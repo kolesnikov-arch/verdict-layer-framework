@@ -15,6 +15,7 @@
           <p class="eyebrow">Trust Decision Walkthrough</p>
           <h1>Verdict Layer — When Can a Change Be Trusted?</h1>
           <p class="brand-subtitle">An illustration of how an admission decision is formed from <strong>independent</strong> evidence — not from the agent's self-report. Conceptual; not a deployable product, and no internal logic is shown.</p>
+          <p class="brand-subtitle"><strong>The measured version of this idea is published:</strong> on a pre-registered, held-out set of 50 tasks, the same model silently shipped <strong>17/50</strong> wrong fixes ungated vs <strong>0/50</strong> gated — <a href="https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md">held-out results</a>. Each scenario below notes its real measured counterpart.</p>
         </div>
       </div>
       <div class="topbar-actions" aria-label="Scenario selection">
@@ -119,6 +120,11 @@
         <section class="boundary-note">
           <h2>What This Shows</h2>
           <p>The verdict is formed from evidence the agent never controlled: a <strong>fix-blind acceptance test</strong> and a regression check. The agent's own test is always shown as passing — to make the point that a self-referential test cannot, on its own, be trusted. Internal scoring, calibration, and orchestration are not disclosed.</p>
+        </section>
+
+        <section class="boundary-note">
+          <h2>Real Measured Counterpart</h2>
+          <p id="realCaseLine"></p>
         </section>
       </aside>
     </main>

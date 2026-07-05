@@ -102,9 +102,11 @@ measurement errors would have already failed its own thesis.
 
 This is an active research effort, and the limits come first:
 
-- The headline figure must come from a **frozen, independent held-out evaluation**, which is
-  **in progress**. Until it completes, no quantitative result is published here —
-  development observations are not evidence for public claims.
+- The headline figure comes from a **frozen, independent held-out evaluation**, completed
+  2026-07-05 against a pre-registered scoring contract: **17/50 silently shipped wrong fixes
+  ungated vs 0/50 gated** — full results and reproducible artifacts in
+  [patchward](https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md).
+  Development observations remain what they are — not evidence.
 - Validated so far against a public software-engineering benchmark oracle, **not** production
   CI.
 - See **[Current Scope & Limitations](CURRENT_SCOPE_AND_LIMITATIONS.md)** before drawing any

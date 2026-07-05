@@ -14,9 +14,11 @@ the specific benchmark and runs live with the evidence, in
   predicts real engineering risk is the top open question, not a settled fact.
 - **One ecosystem so far.** Validation to date is within a single language ecosystem; nothing
   is claimed about others yet.
-- **No published number until held-out.** The headline figure must come from a frozen,
-  independent held-out evaluation, which is in progress. Until then, development observations
-  are feedback, not evidence for public claims.
+- **The number is held-out-only.** The published headline comes from a frozen, independent
+  held-out evaluation completed against a pre-registered contract
+  ([results](https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md)); development
+  observations remain feedback, not evidence. One held-out evaluation exists so far —
+  replication is future work.
 
 ## Threats to validity (thesis level)
 

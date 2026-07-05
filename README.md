@@ -40,10 +40,14 @@ it does not know:
 This is an active research effort. A trust project that hides its limits has already
 failed its own thesis, so the limits come first:
 
-- The headline number must come from a **frozen, independent held-out evaluation**, which
-  is **in progress**. **Until it completes, no quantitative result is published here** —
-  development observations are not evidence for public claims.
-- Validated so far on a public software-engineering benchmark only, not production CI.
+- The headline number comes from a **frozen, independent held-out evaluation**, completed
+  2026-07-05 against a [pre-registered scoring contract](https://github.com/kolesnikov-arch/patchward/blob/main/PREREGISTRATION.md)
+  published before the outcome existed: on 50 held-out tasks, the same model **silently
+  shipped 17/50 wrong fixes ungated vs 0/50 gated** — full results, confidence intervals,
+  disclosed costs, and reproducible artifacts in
+  **[patchward — held-out results](https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md)**.
+- One held-out evaluation so far; validated on a public software-engineering benchmark
+  only, not production CI.
 - See **[Current Scope & Limitations](CURRENT_SCOPE_AND_LIMITATIONS.md)** before drawing
   any conclusion.
 

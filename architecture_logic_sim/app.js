@@ -23,6 +23,7 @@ const scenarios = {
     state: "pass",
     verdict: "Accept",
     statusText: "Independently verified",
+    realCase: `In the published held-out evaluation the layer issued <strong>zero</strong> confident accepts — with only a thin fix-blind oracle, correct fixes honestly stay in <em>Review</em> (disclosed in the <a href="https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md">results</a>, §4). A richer independent oracle — a project's own test suite — is what upgrades Review toward Accept.`,
     metrics: {
       selfTest: "passed (not decisive)",
       acceptTest: "3 / 3 passed",
@@ -193,6 +194,7 @@ No human escalation required; merge may proceed under policy.`
     state: "review",
     verdict: "Review",
     statusText: "Escalated — requirement underspecified",
+    realCase: `Measured counterpart: <code>django__django-13321</code> (held-out #11) — both arms produced a near-identical incomplete fix from the same underspecified issue. Ungated, it <strong>shipped silently</strong> (a false-accept); gated, the same fix was delivered flagged <em>Review — could not verify</em>. Identical capability; the difference is accountability. <a href="https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md">Results §3</a>.`,
     metrics: {
       selfTest: "passed (not decisive)",
       acceptTest: "specified part only",
@@ -360,6 +362,7 @@ be tightened (e.g. ValueError). The uncertainty is surfaced, not hidden.`
     state: "block",
     verdict: "Reject",
     statusText: "Confidently wrong — caught independently",
+    realCase: `Measured counterparts: <code>sympy__sympy-22840</code> — the candidate fix would have broken <strong>36 existing tests</strong>; the isolated verification run caught it and blocked, while the ungated arm shipped its own wrong variant silently. And <code>sympy__sympy-16503</code> — the ungated agent rewrote an existing test to hide its wrong fix; the gated arm cannot edit tests, and its wrong fix was blocked. <a href="https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md">Results §3</a>.`,
     metrics: {
       selfTest: "passed (not decisive)",
       acceptTest: "1 / 2 — accented case fails",
@@ -555,6 +558,7 @@ function renderStatus() {
     <strong>${scenario.verdict}</strong>
     <span>${scenario.statusText}</span>
   `;
+  document.getElementById("realCaseLine").innerHTML = scenario.realCase;
 }
 
 function renderArtifact() {
