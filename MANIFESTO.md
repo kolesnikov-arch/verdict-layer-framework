@@ -116,8 +116,10 @@ This is an active research effort, and the limits come first:
 
 > Agents can already write code. The unsolved problem is **trust in the change**. This
 > framework describes an independent, non-gameable layer that measures not "did the agent
-> solve it" but "when the agent is confidently wrong, is it caught" — and on an independent
-> held-out set, cuts shipped false-accepts by **N%** at equal solve-rate.
+> solve it" but "when the agent is confidently wrong, is it caught" — and on an independent,
+> pre-registered held-out set, it cut silently shipped wrong fixes from **17/50 to 0/50**,
+> with the full cost published alongside
+> ([results](https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md)).
 
 *(N comes from the held-out evaluation; until it exists, it stays a placeholder.)*
 
