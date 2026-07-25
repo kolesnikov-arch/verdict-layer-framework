@@ -107,4 +107,4 @@
 | 能力 vs 信任、过程原则、对反驳的回应 | [MANIFESTO_zh.md](MANIFESTO_zh.md) |
 | 自我指涉的测试、独立/防泄漏验证、三态 | [MANIFESTO_zh.md](MANIFESTO_zh.md) |
 | **尚未**证明什么；留出集状态；有效性威胁 | [当前范围与局限](CURRENT_SCOPE_AND_LIMITATIONS_zh.md) |
-| 判决逻辑的交互式图示 | [patchward 仓库中的 `sim/`](https://github.com/kolesnikov-arch/patchward/tree/main/sim)（英文） |
+| 判决逻辑的交互式图示 | [在浏览器中打开模拟](https://kolesnikov-arch.github.io/patchward/sim/)（英文） |

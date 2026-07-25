@@ -83,7 +83,7 @@ Everything you can actually run sits in
 - **[`check/`](https://github.com/kolesnikov-arch/patchward/tree/main/check)** —
   `pip install patchward-check`. The smallest instance of this framework's second thesis:
   it flags changes that rewrite the tests judging them. One check, no oracle, MIT.
-- **[Interactive sim](https://github.com/kolesnikov-arch/patchward/tree/main/sim)** —
+- **[Interactive sim](https://kolesnikov-arch.github.io/patchward/sim/)** —
   a walkthrough of the tri-state verdict logic in the browser. *(Moved here from this
   repository — the interactive artifact belongs next to the tool.)*
 - **[RESULTS.md](https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md)** —

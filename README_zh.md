@@ -52,7 +52,7 @@
 | [判决层宣言](MANIFESTO_zh.md) | 推理过程：以独立验证取代自我报告 |
 | [当前范围与局限](CURRENT_SCOPE_AND_LIMITATIONS_zh.md) | 这项工作**尚未**证明什么 |
 | [术语表](GLOSSARY_zh.md) | 信任维度上每个术语的定义 |
-| [交互式模拟](https://github.com/kolesnikov-arch/patchward/tree/main/sim) | 三态判决逻辑的交互式演练（已迁入 patchward 仓库，英文） |
+| [交互式模拟](https://kolesnikov-arch.github.io/patchward/sim/) | 三态判决逻辑的交互式演练（已迁入 patchward 仓库，英文） |
 
 > 这是理论层，刻意保持精简。早先那些不服务于信任论点的架构模式草稿已被移除；其历史仍保留在 git 中。
 
