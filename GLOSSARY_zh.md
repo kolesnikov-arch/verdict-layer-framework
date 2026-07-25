@@ -1,5 +1,11 @@
 # 术语表
 
+
+> **翻译状态 / Translation status:** 本文档翻译于 **2026-07-25**，此后不再同步更新。
+> 英文版本为唯一权威版本，如有出入以英文为准。
+> *Translated 2026-07-25 and frozen. The English document is canonical; where the
+> two differ, the English text governs.*
+
 本框架中所用术语的定义。它们描述的是**信任维度上的概念**——而非实现细节。工具名、阶段名、提示词和内部逻辑都被刻意省略。当某个术语的对外措辞与从业者内部的说法不同时，给出的是对外措辞。
 
 ---

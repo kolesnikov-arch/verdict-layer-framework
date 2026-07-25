@@ -1,5 +1,11 @@
 # 当前范围与局限
 
+
+> **翻译状态 / Translation status:** 本文档翻译于 **2026-07-25**，此后不再同步更新。
+> 英文版本为唯一权威版本，如有出入以英文为准。
+> *Translated 2026-07-25 and frozen. The English document is canonical; where the
+> two differ, the English text governs.*
+
 这项工作**尚未**展示什么——刻意放在最前面。一个隐藏自身局限的信任项目，已经背叛了它自己的论点。
 
 本页陈述的是**论点层面**的局限。具体基准与运行的、测量层面的详细局限，与证据放在一起，位于

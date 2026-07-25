@@ -2,6 +2,12 @@
 
 *框架背后的推理：以独立验证取代自我报告。*
 
+
+> **翻译状态 / Translation status:** 本文档翻译于 **2026-07-25**，此后不再同步更新。
+> 英文版本为唯一权威版本，如有出入以英文为准。
+> *Translated 2026-07-25 and frozen. The English document is canonical; where the
+> two differ, the English text governs.*
+
 ## 转变
 
 智能体已经能写代码。这个领域测量的是它们*能不能*写——解决率、通过率、基准分数。那是**能力 (capability)**，而能力是*模型*的属性。

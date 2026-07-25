@@ -2,6 +2,12 @@
 
 **[🇺🇸 English](README.md) | 🇨🇳 简体中文**
 
+
+> **翻译状态 / Translation status:** 本文档翻译于 **2026-07-25**，此后不再同步更新。
+> 英文版本为唯一权威版本，如有出入以英文为准。
+> *Translated 2026-07-25 and frozen. The English document is canonical; where the
+> two differ, the English text governs.*
+
 一个**以测量为先**的框架，关注**对 AI 生成变更的信任 (trust)**——一套用于判断工程组织可以安全接纳哪些 AI 变更的模式与标准。
 
 ## 重新定义问题
