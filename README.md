@@ -70,10 +70,26 @@ published evaluation artifacts*, and *measure your own trust* with the method �
 | [Verdict Layer Manifesto](MANIFESTO.md) | The reasoning: independent verification over self-report |
 | [Current Scope & Limitations](CURRENT_SCOPE_AND_LIMITATIONS.md) | What this work does **not** yet prove |
 | [Glossary](GLOSSARY.md) | Definitions for every term on the trust axis |
-| [Architecture Logic Simulation](architecture_logic_sim/README.md) | An interactive walkthrough of the tri-state verdict logic |
 
 > This is the theory layer, kept intentionally minimal. Earlier architecture-pattern drafts
 > that did not serve the trust thesis have been removed; their history remains in git.
+
+## Where the runnable parts live
+
+This repository is reasoning only — there is nothing here to install, on purpose.
+Everything you can actually run sits in
+**[patchward](https://github.com/kolesnikov-arch/patchward)**:
+
+- **[`check/`](https://github.com/kolesnikov-arch/patchward/tree/main/check)** —
+  `pip install patchward-check`. The smallest instance of this framework's second thesis:
+  it flags changes that rewrite the tests judging them. One check, no oracle, MIT.
+- **[Interactive sim](https://github.com/kolesnikov-arch/patchward/tree/main/sim)** —
+  a walkthrough of the tri-state verdict logic in the browser. *(Moved here from this
+  repository — the interactive artifact belongs next to the tool.)*
+- **[RESULTS.md](https://github.com/kolesnikov-arch/patchward/blob/main/RESULTS.md)** —
+  the held-out evaluation: 17/50 wrong fixes shipped silently ungated, 0/50 gated.
+- **[`evaluation-artifacts/`](https://github.com/kolesnikov-arch/patchward/tree/main/evaluation-artifacts)** —
+  every figure above, recomputable.
 
 ## Who this is for
 
