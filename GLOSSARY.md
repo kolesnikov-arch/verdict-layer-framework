@@ -148,4 +148,4 @@ itself be trustworthy, and this is where that is demonstrated.
 | Capability vs trust, the process principle, the objections | [MANIFESTO.md](MANIFESTO.md) |
 | Self-referential test, independent / leak-safe verification, tri-state | [MANIFESTO.md](MANIFESTO.md) |
 | What is **not** yet proven; held-out status; threats to validity | [Current Scope & Limitations](CURRENT_SCOPE_AND_LIMITATIONS.md) |
-| The verdict logic, illustrated interactively | [architecture_logic_sim/](architecture_logic_sim/README.md) |
+| The verdict logic, illustrated interactively | [`sim/` in patchward](https://github.com/kolesnikov-arch/patchward/tree/main/sim) |
